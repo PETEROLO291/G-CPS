@@ -1,4 +1,4 @@
-# Made By PETEROLO 291©
+# Made By PETEROLO 291©.
 import PySimpleGUI as sg
 from time import sleep
 from threading import Thread
