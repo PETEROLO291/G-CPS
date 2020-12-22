@@ -27,7 +27,7 @@ scores = [  [sg.Text("Timer: 0", justification='c', size=(30,1), font='Mambo 30'
 
 
 layout = [  [sg.Button('Press to Start', size=(60, 15), font='Arial 15', key='-B-'),
-            sg.Column(scores, vertical_alignment='start_loop')]]
+            sg.Column(scores, vertical_alignment='center')]]
 
 
 window = sg.Window('G-CPS', layout, size=(1000, 375), icon="ico.ico")
