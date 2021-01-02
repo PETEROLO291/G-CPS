@@ -92,7 +92,7 @@ with open("record_5.txt", "r") as saved:
 
 # Function to disable the Button for 3s to prevent extra clicks
 def disable():
-    global timer, round_finished, off, file, timer_goal, saved_rec, write_rec, cps, clicks, record
+    global timer, off, file, timer_goal, saved_rec, write_rec, cps, record
 
 
 
@@ -161,7 +161,7 @@ start_loop = Thread(target=timer_loop)
 
 # Function where the CPS calculation is done
 def calculation():
-    global clicks, cps, timer, round_finished, running, timer_goal
+    global clicks, cps, timer, round_finished, running
 
     while running:
         
