@@ -197,7 +197,6 @@ while running:
     # Window closing event
     if event == sg.WINDOW_CLOSED or event == "Close":
         running = False
-        break
 
     # Reset values when round is finished
     if round_finished == True:
@@ -229,7 +228,6 @@ while running:
         set_theme.close()
         system("hide.vbs")
         running = False
-        break
 
 
 
