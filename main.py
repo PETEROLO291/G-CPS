@@ -226,7 +226,7 @@ while running:
         set_theme= open("theme.txt","w+")
         set_theme.write(themes[event])
         set_theme.close()
-        running = False
+        running = Fals
         system("hide.vbs")
 
 
