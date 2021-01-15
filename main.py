@@ -1,4 +1,5 @@
-# Made By PETEROLO 291©
+#!/usr/bin/env python
+
 import PySimpleGUI as sg
 from os import system
 from time import sleep
@@ -300,3 +301,5 @@ while running:
 
 # Closing the window
 window.close()
+
+# Made By PETEROLO 291©
